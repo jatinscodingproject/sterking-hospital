@@ -32,6 +32,10 @@ h6 {
   /* Set the heading font */
 }
 
+h2{
+  font-size: 45px;
+}
+
 p,
 a {
   color: #7a5a4b;
