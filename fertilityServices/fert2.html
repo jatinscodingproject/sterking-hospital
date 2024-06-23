@@ -11,7 +11,9 @@
    <meta name="author" content="Sterling Hospital">
    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
    <title>Our Doctors | Sterling Hospital</title>
    <link rel="stylesheet" href="../style.css">
    <style>
@@ -23,7 +25,7 @@
 
       .image-card {
          width: 100%;
-         height: 200px;
+         height: 300px;
          object-fit: cover;
          transition: transform 0.5s ease;
       }
@@ -53,9 +55,10 @@
       <div class="container">
          <div class="row">
             <div class="col-md-12 text-center">
-               <span class="py-1 px-2 rounded font-weight-bold" style="color: #1a355d;">
-                  <i class="fa fa-phone fa-lg fa-inverse" style="color: #1a355d;"></i> Tel: 8530046800/8530064800
-               </span>
+               <a href="tel:+918530064800" style="text-decoration: none;"><span
+                     class="py-1 px-2 rounded font-weight-bold" style="color: #1a355d;">
+                     <i class="fa fa-phone fa-lg fa-inverse" style="color: #1a355d;"></i> Tel: 8530046800/8530064800
+                  </span></a>
             </div>
          </div>
       </div>
@@ -265,7 +268,7 @@
    <!-- middle section -->
    <div class="jumbotron jumbotron-fluid">
       <div class="container">
-         <h2 class="display-4" style="color: #2c4b6b;">Ovulation Induction</h2>
+         <h2 style="color: #2c4b6b;">Ovulation Induction</h2>
          <p class="lead" style="color: #7a5a4b;">Effective Treatment for Irregular Ovulation in Virar & Mumbai</p>
       </div>
    </div>
@@ -283,26 +286,32 @@
       </div>
 
       <div class="container-fluid my-5">
-         <h2 class="text-center">Image Gallery</h2>
          <div class="row">
             <div class="col-md-4">
                <div class="zoom-effect-container">
-                  <img src="../orthoImages/o1.jpg" class="img-fluid image-card" alt="Orthopaedic Care">
+                  <img src="../fertImages/4.jpg" class="img-fluid image-card" alt="Orthopaedic Care">
                </div>
             </div>
             <div class="col-md-4">
                <div class="zoom-effect-container">
-                  <img src="../orthoImages/o2.jpg" class="img-fluid image-card" alt="Trauma Care">
+                  <img src="../fertImages/5.jpg" class="img-fluid image-card" alt="Trauma Care">
                </div>
             </div>
             <div class="col-md-4">
                <div class="zoom-effect-container">
-                  <img src="../orthoImages/o3.jpg" class="img-fluid image-card" alt="Joint Replacement">
+                  <img src="../fertImages/6.jpg" class="img-fluid image-card" alt="Joint Replacement">
                </div>
             </div>
          </div>
       </div>
    </div>
+
+   <!-- <div class="container my-5">
+         <h2 class="text-center">Learn More About Ovulation Induction</h2>
+         <div class="video-container" id="videoBox">
+             <iframe width="100%" height="600" src="https://www.youtube.com/embed/WhpbWkrLs9g" frameborder="0" allowfullscreen></iframe>
+         </div>
+     </div> -->
 
    <!-- Footer -->
    <footer id="contactus" class="py-3">
@@ -310,17 +319,13 @@
          <div class="row" id="footer">
             <div class="col-md-4 mb-3">
                <h5>About Us</h5>
-               <p>Sterling Hospital is dedicated to providing exceptional medical care with integrity and
-                  compassion.
-                  Our state-of-the-art facilities and highly skilled medical professionals ensure that each
-                  patient
-                  receives personalized and comprehensive treatment. We prioritize patient well-being and strive
-                  to
-                  create a supportive and healing environment. Whether it's routine check-ups, specialized
-                  treatments,
+               <p>Sterling Hospital is dedicated to providing exceptional medical care with integrity and compassion.
+                  Our state-of-the-art facilities and highly skilled medical professionals ensure that each patient
+                  receives personalized and comprehensive treatment. We prioritize patient well-being and strive to
+                  create a supportive and healing environment. Whether it's routine check-ups, specialized treatments,
                   or emergency care, our commitment to excellence remains unwavering.</p>
             </div>
-            <div class="col-md-2 mb-3">
+            <div class="col-md-2 mb-3" id="contact_us">
                <h5>Navigation</h5>
                <ul class="list-unstyled">
                   <li><a href="../index.html#aboutus">About Us</a></li>
@@ -330,26 +335,40 @@
                   <li><a href="../patient.html">Our Patients</a></li>
                   <li><a href="../facilities.html">Facilities</a></li>
                   <li><a href="../cashless.html">Cashless</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="../index.html#contactus">Contact Us</a></li>
+
                </ul>
             </div>
             <div class="col-md-3 mb-3">
                <h5>Contact Us</h5>
                <ul class="list-unstyled">
-                  <li><i class="fa fa-address-book fa-lg fa-inverse" style="color: black;"></i> Besides Yashwant
-                     Vihar
-                     Complex, Virar Nalasopara Link Road, Bolinj, Virar West, Maharashtra, India 401303</li>
-                  <li><i class="fa fa-phone fa-lg fa-inverse" style="color: black;"></i> 8530046800 / 8530064800
+                  <li>
+                     <a href="https://www.google.com/maps?q=Yashwant+Vihar+Complex,+Virar+Nalasopara+Link+Road,+Bolinj,+Virar+West,+Maharashtra,+India+401303"
+                        style="text-decoration: none;">
+                        <i class="fas fa-map-marker-alt fa-lg" style="color: #1a355d;"></i>
+                        Besides Yashwant Vihar Complex, Virar Nalasopara Link Road, Bolinj, Virar West, Maharashtra,
+                        India 401303
+                     </a>
                   </li>
-                  <li><i class="fa fa-envelope fa-lg fa-inverse" style="color: black;"></i>
-                     sterlingorthohospital@gmail.com</li>
+                  <li>
+                     <a href="tel:+918530064800" id="phone-number" style="text-decoration: none;">
+                        <i class="fas fa-phone fa-lg" style="color: #1a355d;"></i> 8530046800 / 8530064800
+                     </a>
+                  </li>
+                  <li>
+                     <a href="mailto:sterlingorthohospital@gmail.com" style="text-decoration: none;">
+                        <i class="fas fa-envelope fa-lg" style="color: #1a355d;"></i>
+                        sterlingorthohospital@gmail.com
+                     </a>
+                  </li>
                </ul>
+
             </div>
             <div class="col-md-3 mb-3">
                <h5>Get Connected</h5>
                <ul class="list-inline social-icons">
-                  <li><a href="#"><i class="fa fa-globe fa-lg fa-inverse"
-                           style="color: black;"></i>https://sterlingorthoivf.in/</a></li>
+                  <li><a href="../index.html"><i class="fa fa-globe fa-lg fa-inverse" style="color: #1a355d;"></i>
+                        https://sterlingorthoivf.in/</a></li>
                </ul>
             </div>
          </div>
@@ -359,9 +378,8 @@
          </div>
          <div class="row">
             <div class="col-12 text-center">
-               <p class="mb-0">Copyright @2024 Sterling Orthopaedic Hospital and IVF Centre.
-                  All rights
-                  reserved.</p>
+               <p class="mb-0">Copyright @2024 Sterling Orthopaedic Hospital and IVF Centre. All
+                  rights reserved.</p>
             </div>
          </div>
       </div>
