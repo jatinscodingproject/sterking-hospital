@@ -17,6 +17,17 @@
    <title>Our Doctors | Sterling Hospital</title>
    <link rel="stylesheet" href="../style.css">
    <style>
+      .jumbotron {
+         background-image: url('../orthoImages/o3.jpg');
+         background-size: cover;
+         background-position: center;
+      }
+
+      .jumbotron .content {
+         position: relative;
+         z-index: 9;
+      }
+
       .zoom-effect-container {
          position: relative;
          width: 100%;
@@ -152,83 +163,80 @@
                            Fertility Services
                         </a>
                         <ul class="dropdown-menu">
-                           <li><a class="dropdown-item" href="../fertilityServices/fert1.html">Fertility Counseling</a>
-                           </li>
-                           <li>
-                              <hr class="dropdown-divider">
-                           </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert2.html">Ovulation Induction </a>
-                           </li>
-                           <li>
-                              <hr class="dropdown-divider">
-                           </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert3.html">Transvaginal Ultrasound
-                                 Follicular Monitoring(TVS)</a></li>
-                           <li>
-                              <hr class="dropdown-divider">
-                           </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert4.html">Intrauterine
-                                 Insemination</a></li>
-                           <li>
-                              <hr class="dropdown-divider">
-                           </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert5.html">In Vitro
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility1.html">In Vitro
                                  Fertilization(IVF)</a></li>
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert6.html">Intracyptoplasmic Sperm
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility2.html">Intracyptoplasmic
+                                 Sperm
                                  Injection(ICSI)</a></li>
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert7.html">Blastocyst Culture</a>
-                           </li>
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility3.html">Intrauterine
+                                 Insemination</a></li>
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert8.html">Egg(Ovum) Donation</a>
-                           </li>
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility4.html">Blastocyst
+                                 Culture</a></li>
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert9.html">Egg Freezing</a></li>
-                           <li>
-                              <hr class="dropdown-divider">
-                           </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert10.html">Frozen Embyro
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility5.html">Frozen Embyro
                                  Transfer(FET)</a></li>
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert11.html">Embyro
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility6.html">Embyro
                                  Cryopreservation</a>
                            </li>
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert12.html">Treatment For Recurrent
-                                 Pregnancy Loss</a></li>
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility7.html">Egg Freezing</a>
+                           </li>
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert13.html">Laparoscopy</a></li>
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility8.html">Sperm Freezing</a>
+                           </li>
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert14.html">Hysteroscopy</a></li>
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility9.html">Recurrent
+                                 Implatation failure</a></li>
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert15.html">Sonograpy</a></li>
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility10.html">PCOS clinic</a>
+                           </li>
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert16.html">Pcod Clinic</a></li>
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility11.html">Laparoscopy</a>
+                           </li>
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../fertilityServices/fert17.html">Genetic Counselling</a>
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility12.html">Hysteroscopy</a>
+                           </li>
+                           <li>
+                              <hr class="dropdown-divider">
+                           </li>
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility13.html">Male fertility</a>
+                           </li>
+                           <li>
+                              <hr class="dropdown-divider">
+                           </li>
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility14.html">Donor services</a>
+                           </li>
+                           <li>
+                              <hr class="dropdown-divider">
+                           </li>
+                           <li><a class="dropdown-item" href="../fertilityServices/fertility15.html">Advanced technology
+                                 and diagnostics</a>
                            </li>
                         </ul>
                      </li>
@@ -269,13 +277,24 @@
    <!-- middle section -->
    <div class="jumbotron jumbotron-fluid">
       <div class="container" id="orthotrauma">
-         <h2 style="color: #2c4b6b;">Orthopaedic and Trauma Care</h2>
-         <p class="lead" style="color: #7a5a4b;">Best Treatment for Muscle and Bones in Virar & Mumbai</p>
+         <h2 style="color: #09325a;">Orthopaedic and Trauma Care</h2>
+         <p class="lead" style="color: #7a5a4b; font-weight: bolder;">Best Treatment for Muscle and Bones in Virar & Mumbai</p>
       </div>
    </div>
 
 
    <div class="container">
+      <div class="info-box">
+         <h3>About Orthopaedic and Trauma Care</h3>
+         <p>At Sterling Orthopaedic Hospital, we offer comprehensive orthopaedic and trauma care services. Our team
+            of expert doctors and medical professionals is dedicated to providing top-notch treatment for a variety
+            of orthopaedic conditions, including fractures, joint dislocations, and muscle injuries.</p>
+         <p>Our trauma care unit is equipped with state-of-the-art facilities to handle emergencies efficiently,
+            ensuring quick and effective treatment for critical injuries. We specialize in minimally invasive
+            surgical techniques that promote faster recovery and reduce pain. Trust us to deliver the highest
+            quality care for your bone and muscle health.</p>
+      </div>
+     
       <div class="container-fluid my-5">
          <div class="row">
             <div class="col-md-4">
@@ -295,17 +314,8 @@
             </div>
          </div>
       </div>
-      <div class="info-box">
-         <h3>About Orthopaedic and Trauma Care</h3>
-         <p>At Sterling Orthopaedic Hospital, we offer comprehensive orthopaedic and trauma care services. Our team
-            of expert doctors and medical professionals is dedicated to providing top-notch treatment for a variety
-            of orthopaedic conditions, including fractures, joint dislocations, and muscle injuries.</p>
-         <p>Our trauma care unit is equipped with state-of-the-art facilities to handle emergencies efficiently,
-            ensuring quick and effective treatment for critical injuries. We specialize in minimally invasive
-            surgical techniques that promote faster recovery and reduce pain. Trust us to deliver the highest
-            quality care for your bone and muscle health.</p>
-      </div>
-      <div class="container my-5">
+
+       <div class="container my-5">
          <h2 class="text-center">Learn About Bones and Muscles</h2>
          <div class="video-container" id="videoBox">
             <video id="boneMuscleVideo" width="100%" controls>
