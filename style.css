@@ -353,9 +353,12 @@ a {
 /* doctor page css */
 
 .jumbotron {
-  background: linear-gradient(to right, );
+  background-image: url('orthoImages/o1.jpg');
+  background-size: cover;
+  background-position: center;
+  /* background: linear-gradient(to right, );
   padding: 3rem 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem; */
 }
 
 .card img {
