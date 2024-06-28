@@ -35,12 +35,19 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
+        @media (min-width: 992px) {
+            #eggDonationImage {
+                max-width: 50%;
+                height: auto;
+            }
+        }
+
         #eggDonationImage {
             border: 1px solid #ccc;
             border-radius: 15px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
-            height: 500px;
+            height: auto;
         }
 
         #eggDonationImage:hover {
